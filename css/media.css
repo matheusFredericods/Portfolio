@@ -1,0 +1,98 @@
+@media screen and (max-width:1020px){
+
+    .conteudo-sobre{
+        flex-direction: column;
+    }
+
+    .conteudo-habilidade{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .conteudo-projeto{
+        flex-direction: column;
+    }
+
+    .menu-computador{
+        display: none;
+    }
+
+    .logo h1{
+        font-size: 2rem;
+    }
+
+    .txt-apresentacao h1{
+        font-size: 2rem;
+    }
+
+    .txt-apresentacao span{
+        display: block;
+    }
+
+    section.sobre{
+        padding: 35px 4%;
+    }
+
+    .img-sobre img{
+        width: 100%;
+    }
+
+    section.sobre .conteudo-sobre{
+    gap: 20px;
+}
+
+section.sobre .txt-sobre p{
+    font-size: 1.1rem;
+}
+
+section.habilidades{
+    padding: 40px 8%;
+}
+
+section.habilidades .habilidades-box img{
+    height: 6vh;
+}
+
+section.habilidades-box{
+    transition: none;
+}
+
+section.habilidades-box:hover{
+    transform: none;
+}
+
+.conteudo-habilidade:hover .habilidades-box{
+    opacity: 1;
+    box-shadow: none;
+}
+
+.conteudo-habilidade:hover .habilidades-box:hover{
+   opacity: 1;
+   transform: none;
+   box-shadow: none;
+}
+
+.conteudo-habilidade:hover .habilidades-box:not(:hover) img {
+    filter: none; 
+}
+
+section.projetos{
+    padding: 80px 8%;
+}
+
+
+
+section.projetos .projeto-cartao img{
+    width: 100%;
+}
+
+.btn-abrir-menu{
+        display: block;
+     }
+
+    .menu-mobile nav ul li a {
+        color: #fff;
+     }
+
+
+}
