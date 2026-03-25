@@ -333,7 +333,36 @@ section.projetos{
 
 section.projetos .projeto-cartao{
     max-width: 350px;
+    min-height: 400px;
+    
 }
+
+.links-projeto {
+    display: flex;             
+    justify-content: center;  
+    gap: 10px; 
+}
+
+.links-projeto a {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: var(--cor-principal-forte);
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 15px;
+    border: 1px solid var(--cor-principal-forte);
+    border-radius: 5px;
+    transition: 0.3s ease;
+     width: 150px;
+    text-align: center; 
+}
+
+.links-projeto a:hover {
+    background-color: var(--cor-principal);
+    color: #fff;
+}
+
 
 section.projetos .projeto-cartao img{
     width: 100%;
